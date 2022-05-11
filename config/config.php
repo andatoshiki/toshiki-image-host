@@ -90,10 +90,9 @@ $config=Array
 	'admin_path'=>'u',
 	'version'=>'2.6.2',
 	'update'=>'2022-05-04 22:54:32',
-	'footer'=>'<a href="/admin/terms.php" target="_blank">请勿上传违反中国政策的图片</a>,
+	'footer'=>'<a href="/admin/terms.php" target="_blank">请勿上传违反中国政策的图片</a>',
 	'ad_top'=>0,
-	'ad_top_info'=>' <!--广告 按照这个范例替换相应链接，如果想多几个广告，就多复制几个-->
-	<div class="col-md-12" style="text-align: center;margin:2px;">
+	'ad_bot_info'=>'<div class="col-md-12" style="text-align: center;margin-bottom:10px;">
 		<!--insert some HTML here-->
 	</div>',
 	'ad_bot'=>0,
@@ -115,7 +114,7 @@ $config=Array
         </li>
       </ul>
     </div>
-    <div class="col-xs-9">
+     <div class="col-xs-9">
       <div class="tab-content col-xs-9">
         <div class="tab-pane fade active in" id="tab3Content1">
           <h4>服务条款</h4>
