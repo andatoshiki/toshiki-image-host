@@ -104,7 +104,7 @@ function checkPASS($name)
             </tr>
             <tr>
                 <td>.user.ini</td>
-                <td>需关闭防跨目录读写文件</td>
+                <td>需关闭防跨目录读写文件 | 删除方法:<a href="https://lnmp.org/faq/lnmp-vhost-add-howto.html#user.ini" target="_blank"> LNMP</a> | <a href="https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=36605&page=1#pid122035" target="_blank">BT宝塔</a></td>
                 <td><?php checkPASS($userINI); ?></td>
             </tr>
         </tbody>
@@ -116,6 +116,9 @@ function checkPASS($name)
         <p class="text-primary">如果使用Liunx主机权限错误可以使用以下命令: </p>
         <h6 class="code">chmod 755 -R <?php echo APP_ROOT; ?></h6>
         <h6 class="code">chown -R www:www <?php echo APP_ROOT; ?></h6>
+        <hr />
+        <p class="text-danger">如果你不想安装上述PHP扩展或跳过安装过程请删除<code>install</code>目录
+        <a href="./index.php"><button class="btn btn-danger" type="button">请满足上述要求后点击刷新</button></a>
     <?php else : ?>
         <form action="install.php" method="post">
             <input type="hidden" name="check" value="checked" readonly>
@@ -185,9 +188,9 @@ function checkPASS($name)
             <a href="#" data-position="center" data-moveable="inside" data-moveable="true" data-toggle="modal" data-target="#myModal">
                 <i class="icon icon-qrcode"></i>二维码 </a>
         </div>
-        <?php echo 'Copyright © 2022-' . date('Y'); ?>
-        <a href="https://image.toshiki.top/" target="_blank">俊樹の圖床</a> By
-        <a href="https://www.toshiki.top/" target="_blank">Anda Toshiki</a>
+			<?php echo 'Copyright © 2022-' . date('Y'); ?>
+			<a href="https://image.toshiki.top/" target="_blank">俊樹の圖床</a> By
+			<a href="https://www.toshiki.top/" target="_blank">Anda Toshiki</a>
     </footer>
 </body>
 
