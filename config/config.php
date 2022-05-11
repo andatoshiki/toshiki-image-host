@@ -6,7 +6,7 @@ $config=Array
 	'description'=>'俊樹の圖床is hosted by Anda Toshiki for self/public free image hosting usages',
 	'tips'=>'<a><li class="icon icon-bullhorn text-muted"> 单文件≤10M,单次上传≤30张</li></a>',
 	'notice_status'=>0,
-	'notice'=>'<p>欢迎来到俊樹の圖床(p≧w≦q)~</p>,
+	'notice'=>'<p>欢迎来到俊樹の圖床(p≧w≦q)~</p>',
 	'domain'=>'http://127.0.0.1',
 	'imgurl'=>'http://127.0.0.1,http://192.168.2.100',
 	'user'=>'admin',
